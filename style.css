@@ -1,58 +1,31 @@
-.header{
+body {
+    background: grey;
+    margin: auto;
 
-    background-color: "#ebebeb";
-}
-nav{
-    background:"#ebebeb";
-    
-}
-body{
-    font-family: "Arial","Helvetica Neue",Helvetica,sans serif;
-    color: "#777";
-    width:"960px";
-    font-size:"18px";
-}
-.section{
-    background: "#ebebeb";
-    width:"495px";
-      .article{
-    background: "777";
-    color:"ebebeb";
-      }
-         .h1{
-             color:"#777";
-             background:"#777";
-         }
-             p{
-                color:"#777";
-                background:"#ebebeb";
-             }
-.aside{
-    background:"#ebebeb";
-}
-.footer:{
-    background:"#ebebeb"
 }
 
+header,
+nav,
+section,
+aside,
+footer {
+    background: white;
+    margin: 10px;
+}
+section {
+    width:651px;
+    float: left;
 
 
+}
 
-
-
-
-         
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
+.clear {
+    clear: both;
+}
+aside {
+    width:40%;
+    float: right;
+    height: 128
+    ;
+}
 
